@@ -11,6 +11,9 @@ chmod +x SimElevatorServer   # only needed once
 make                         # run in a new terminal
 ./elevator                   # start the elevator
 ```
+Sometimes ./elevator has to be run several times. Typical error message for such situations is:
+"Segmentation fault (core dumped)"
+
 ## Simulator Interface
 
 The simulator provides a visual representation of the elevator state directly in the terminal.
